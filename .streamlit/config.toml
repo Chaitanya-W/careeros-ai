@@ -1,0 +1,21 @@
+# CareerOS AI — Streamlit configuration
+# ------------------------------------------------------------
+# Non-secret Streamlit runtime configuration (theme, server options).
+# Docs: https://docs.streamlit.io/develop/concepts/configuration
+
+[server]
+maxUploadSize = 200
+enableXsrfProtection = true
+enableCORS = false
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#0F172A"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F5F9"
+textColor = "#0F172A"
+font = "sans serif"

@@ -1,0 +1,11 @@
+# CareerOS AI — runtime dependencies
+# ------------------------------------------------------------
+# Streamlit application + Resume Intelligence feature.
+# Keep minimal; add per-module deps only when a feature needs them.
+
+streamlit>=1.30
+
+# Resume Intelligence — text extraction (PDF/DOCX) + Gemini client
+pypdf>=4.0
+python-docx>=1.0
+google-genai>=1.0
